@@ -1,0 +1,35 @@
+# Node.js dependencies
+node_modules/
+
+# Output of TypeScript compiler
+dist/
+build/
+*.js
+*.js.map
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# ts-node and debugging
+*.tsbuildinfo
+
+# Optional: ignore compiled test files
+*.spec.js
+*.test.js
