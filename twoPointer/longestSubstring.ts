@@ -8,7 +8,7 @@ function lengthOfSubj(arr: []): number {
       left++;
     }
     seen.add(arr[right]);
-    maxLength = Math.max(maxLength, right - left + 1);
+    maxLength = Math.max(maxLength, right - left + 1); 
   }
   return maxLength;
 }
